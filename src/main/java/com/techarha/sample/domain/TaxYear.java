@@ -25,7 +25,8 @@ public class TaxYear {
         this.endDate = endDate;
     }
 
-    public int getCurrentMonthNumber(){
+    //TODO change the code to accept a date to handle non-cumulative calculations.
+    public int getMonthNumber(){
 
         return 1;
     }
